@@ -17,14 +17,7 @@
                 <button id="refresh-button" type="reset">Refresh</button>
                 </div>
                 <div class="score_list">
-                    <ul>
-                    <li>Name:100</li>
-                    <li class="dark-shade">Name:20</li>
-                    <li>Name:50</li>
-                    <li class="dark-shade">Name:78</li>
-                    <li>Name:125</li>
-                    <li class="dark-shade">Name:77</li>
-                    <li>Name:44</li>
+                    <ul id="scores">
                     </ul>
                 </div>
             </div>
@@ -34,8 +27,8 @@
             <hr class="hr"/>
             <br/>
             <form id="score_form">
-                <input type="text" required placeholder="name" id="name" /><br />
-                <input type="text" required placeholder="score" id="score" /><br />
+                <input type="text" required placeholder="name" class="name-field" /><br />
+                <input type="text" required placeholder="score" class="score-field" /><br />
                 <button id="sub-button" type="submit">Submit</button>
             </form>
         </div>

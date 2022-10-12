@@ -64,13 +64,13 @@
   align-items: flex-end;
 }
 
-.sub-button {
+#sub-button {
   width: 50%;
   border: 1px solid black;
   cursor: pointer;
 }
 
-.refresh-button {
+#refresh-button {
   border: 1px solid black;
   cursor: pointer;
   padding: 0.2rem;

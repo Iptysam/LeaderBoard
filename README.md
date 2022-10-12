@@ -1,12 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# LeaderBoard: Setup Project
+# LeaderBoard: API Implementations
 
 ## Description the project.
 - Create a basic UI using HTML
 - build a basic website that shows Leaderboard List
 - Use E6 modules
 - Use webpack and served by a webpack dev server
+- Create a new game with the name of your choice by using the API.
+- Make sure that you saved the ID of your game that will be returned by API.
+- Implement the "Refresh" button that will get all scores for a game created by you from the API (receiving data from the API and parsing the JSON).
+- Implement the form "Submit" button that will save a score for a game created by you (sending data to the API).
+- Use arrow functions instead of the function keyword.
+- Use async and await JavaScript features to consume the API.
 
 ## Built With
 
