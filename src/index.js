@@ -1,8 +1,7 @@
 import 'lodash';
 import './style.css';
 import { postData, nameInput, scoreInput } from './modules/Post.js';
-import get_scores from './modules/get';
-
+import getScores from './modules/get.js';
 
 const form = document.querySelector('#score_form');
 const refreshBtn = document.querySelector('#refresh-button');
@@ -15,7 +14,7 @@ form.addEventListener('submit', (e) => {
 });
 
 refreshBtn.addEventListener('click', () => {
-  get_scores();
+  getScores();
 });
 
-window.onload = get_scores();
+window.onload = getScores();
