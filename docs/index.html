@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <title>Leaderboard</title>
 <script defer src="runtime.main.js"></script><script defer src="index.main.js"></script></head>
 <body>
     <div class="board-container">
         <div class="title_wrapper">
         <h1 class="main_title">LeaderBoard</h1>
+            <i class='fa fa-trophy fa-5x fa-custom'></i>
         </div>
         <div class="min_container">
             <div class="score_board">
                 <div class="Title_board">
-                <h2>Recent Scores</h2>
+                <h2 class="score-info">Recent Scores</h2>
                 <button id="refresh-button" type="reset">Refresh</button>
                 </div>
                 <div class="score_list">
@@ -27,8 +29,8 @@
             <hr class="hr"/>
             <br/>
             <form id="score_form">
-                <input type="text" required placeholder="name" class="name-field" /><br />
-                <input type="text" required placeholder="score" class="score-field" /><br />
+                <input type="text" required placeholder="Name" class="name-field" /><br />
+                <input type="text" required placeholder="Score" class="score-field" /><br />
                 <button id="sub-button" type="submit">Submit</button>
             </form>
         </div>
