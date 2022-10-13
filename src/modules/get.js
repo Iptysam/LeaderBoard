@@ -12,6 +12,7 @@ const getScores = async () => {
       const scoreList = data.result;
       scoreList.forEach((element) => {
         const list = document.createElement('li');
+        list.className = 'board_list';
         list.innerHTML = `<p>${element.user} : ${element.score}</p>`;
         scoreBoard.appendChild(list);
       });
