@@ -92,3 +92,20 @@ li {
   text-decoration: none;
   padding-left: 0.3rem;
 }
+
+button {
+  background-color: rgba(188, 116, 246, 0.655);
+  border: none;
+  box-shadow: 0 3px rgb(200, 206, 124);
+  color: white;
+}
+
+button:hover {
+  background-color: burlywood;
+}
+
+button:active {
+  background-color: rgba(116, 123, 246, 0.655);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
