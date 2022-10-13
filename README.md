@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# LeaderBoard: API Implementations
+# LeaderBoard: Final Touches
 
 ## Description the project.
 - Create a basic UI using HTML
